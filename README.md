@@ -8,7 +8,7 @@ My final project is about the content analysis for all of the administrative law
 # Importance in Substantive Topic
 My research question is whether we could capture pattern of legal changes through variations of linguistic behaviours. Speaking in another way, my point of interest is what makes our the current status of administrative law in controlling police misconduct nowadays. First, I wonder what are the contexts of the administrative lawsuits within the database. Next, I am curious about what legal resources, and what contexts of legal resources, are referenced in the making of judicial decisions. 
 
-# Research Question:
+# Research Question
 What topics of law is invoked in the legal discussion? How can we extract patterns of legal change?
 
 # Method Deisgn
