@@ -1,5 +1,6 @@
 # SOCI40133_Final_Project
-# Author: Ryan Leung (Liang)    Email: hleung@uchicago.edu
+# Author: Ryan Leung (Liang)    
+# Email: hleung@uchicago.edu
 
 # Project Background
 My final project is about the content analysis for all of the administrative lawsuits against police departments in U.S. Federal Courts. I have used a combined approach of keyword search and legislation code search to scrape in total 19K cases from the opinion database of Court Listener. The 19K cases are in HTML / XML format, and in this assignment, I have used 14K roughly cleaned cases from the database to perform the pre-analysis. Particularly, I'm interested in the timeframe after the 1960s, where notable civil rights cases, like Monroe v. Pape, have changed the landscape of administrative lawsuits in the U.S. legal field. I still have to perform data cleaning on the database, to identify the related metadata, case background and history, and decisions. 
