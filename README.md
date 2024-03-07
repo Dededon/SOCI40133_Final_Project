@@ -16,3 +16,6 @@ What topics of law is invoked in the legal discussion? How can we extract patter
 2. Next, I use keyword search to extract the paragraphs of motions made in the cases. As motion is a procedural device in lawsuits, I expect languages to be more formalized in these paragraphs.
 3. I trained Skip-gram and C-BOW models on the paragraphs of motions. I use K-SVD decomposition to extract the discourse atoms. After that, I visualize the distribution for the discourse atoms in the paragraphs of motion-making for interpreting the temporal change in topics of motion.
 4. Last, I train a Word2Vec model on the full corpus, to see the semantic change of "motion" and "claim", by visualizing how their co-occurences with legal terminologies in the context change along the time.
+
+# Keywords
+Semantic Space, Topic Modeling, Latent Dirichlet Allocation, Dynamic Word2Vec, Discourse Atom
