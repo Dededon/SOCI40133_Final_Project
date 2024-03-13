@@ -17,5 +17,12 @@ What topics of law is invoked in the legal discussion? How can we extract patter
 3. I trained Skip-gram and C-BOW models on the paragraphs of motions. I use K-SVD decomposition to extract the discourse atoms. After that, I visualize the distribution for the discourse atoms in the paragraphs of motion-making for interpreting the temporal change in topics of motion.
 4. Last, I train a Word2Vec model on the full corpus, to see the semantic change of "motion" and "claim", by visualizing how their co-occurences with legal terminologies in the context change along the time.
 
+# File Description
+**Topic_Modeling.ipynb**: Codes to do topic modeling with the cited legal documents.
+**Topic_Distribution.ipynb**: Codes to do normalize the yearly distribution of the topics.
+**paragraph_embedding.ipynb**: Codes to generate a paragraph embedding with Sentence Transformers. As the results are not satisfying, it is not presented in the final paper.
+**discourse_atom.ipynb**: Codes to generate the discourse atom.
+**dynamic_word2vec.ipynb**: Codes to train and generate the visualization for the Dynamic Word2Vec.
+
 # Keywords
 Semantic Space, Topic Modeling, Latent Dirichlet Allocation, Dynamic Word2Vec, Discourse Atom
