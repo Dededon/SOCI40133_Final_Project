@@ -19,9 +19,13 @@ What topics of law is invoked in the legal discussion? How can we extract patter
 
 # File Description
 **Topic_Modeling.ipynb**: Codes to do topic modeling with the cited legal documents.
+
 **Topic_Distribution.ipynb**: Codes to do normalize the yearly distribution of the topics.
+
 **paragraph_embedding.ipynb**: Codes to generate a paragraph embedding with Sentence Transformers. As the results are not satisfying, it is not presented in the final paper.
+
 **discourse_atom.ipynb**: Codes to generate the discourse atom.
+
 **dynamic_word2vec.ipynb**: Codes to train and generate the visualization for the Dynamic Word2Vec.
 
 # Keywords
