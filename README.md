@@ -13,7 +13,9 @@ What topics of law is invoked in the legal discussion? How can we extract patter
 
 # Method Deisgn
 1. First, I used unsupervised topic modelings methods to capture the topic of the law of matter, to observe what are the topics of legal principles are being cited and "circulated" throughout the judicial discourses.
-2. ...
-3. ...
-4. I can apply word / paragraph embedding on the paragraphs involves legal citations, to see what are the topics of legal principles are being cited and "circulated" throughout the judicial discourses.
-5. I can make a visualization of what topics of case laws are cited in different temporal / spatial divisions of courts. I can either pick one court that are having more administrative lawsuits to do a topic modeling / clustering analysis with a smaller sample of contexts, and with close reading of the legal texts, to make a stronger theorization of the changing in the legal landscape.
+2. Next, I use keyword search to extract the paragraphs of motions made in the cases. As motion is a procedural device in lawsuits, I expect languages to be more formalized in these paragraphs.
+3. I trained Skip-gram and C-BOW models on the paragraphs of motions. I use K-SVD decomposition to extract the discourse atoms. After that, I visualize the distribution for the discourse atoms in the paragraphs of motion-making for interpreting the temporal change in topics of motion.
+4. Last, I train a Word2Vec model on the full corpus, to see the semantic change of "motion" and "claim", by visualizing how their co-occurences with legal terminologies in the context change along the time.
+
+# Keywords
+Semantic Space, Topic Modeling, Latent Dirichlet Allocation, Dynamic Word2Vec, Discourse Atom
